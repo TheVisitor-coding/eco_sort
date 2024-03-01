@@ -13,7 +13,8 @@ export default {
       colors: {
         yellow: '#EFD600',
         'green-primary': '#17A638',
-        'green-secondary': '#A3C4AA'
+        'green-secondary': '#A3C4AA',
+        'grey-primary': 'rgba(255, 255, 255, 1)'
       },
       backgroundColor: {
         'button-focus': '#F8F7F7'
