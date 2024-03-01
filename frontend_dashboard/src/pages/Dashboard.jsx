@@ -1,4 +1,5 @@
-import Statistics from '../components/section/tableau_bord/statistics/Statistics'
+import ClassementSection from '../components/section/tableau_bord/classement/ClassementSection'
+import StatisticsSection from '../components/section/tableau_bord/statistics/StatisticsSection'
 import Sidebar from '../components/sidebar/Sidebar'
 
 function Dashboard () {
@@ -7,7 +8,10 @@ function Dashboard () {
       <main className='mt-6 flex flex-row items-start'>
         <Sidebar />
         <div className='h-screen w-full'>
-          <Statistics />
+          <div className='flex flex-row gap-6'>
+            <StatisticsSection />
+            <ClassementSection />
+          </div>
         </div>
       </main>
     </>

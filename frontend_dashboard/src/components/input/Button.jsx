@@ -7,7 +7,7 @@ function Button ({ children, onClick, src, alt }) {
       <button
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
-        className='flex flex-row items-center pl-6 gap-2 w-10/12 py-5 rounded-3xl hover:bg-button-focus focus:bg-button-focus'
+        className='flex flex-row items-center pl-6 gap-2 w-10/12 py-5 rounded-3xl hover:bg-primary focus:bg-primary'
         onClick={onClick}
       >
         <img className='size-5' src={`${isFocused ? `${src}_focus.svg` : `${src}_unfocus.svg`}`} alt={alt} />

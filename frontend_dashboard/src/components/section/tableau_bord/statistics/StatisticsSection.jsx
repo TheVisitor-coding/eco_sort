@@ -2,7 +2,7 @@ import CardStatistics from './CardStatistics'
 import { statsCard } from '../../../../data/stats'
 import StatsGraphic from './StatsGraphic'
 
-function Statistics () {
+function StatisticsSection () {
   return (
     <>
       <section className='bg-white flex flex-col gap-6 shadow-md h-fit w-fit px-8 py-8 rounded-section'>
@@ -28,4 +28,4 @@ function Statistics () {
   )
 }
 
-export default Statistics
+export default StatisticsSection

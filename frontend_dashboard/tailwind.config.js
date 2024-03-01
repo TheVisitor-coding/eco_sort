@@ -16,7 +16,7 @@ export default {
         'green-secondary': '#A3C4AA'
       },
       backgroundColor: {
-        'button-focus': '#F8F7F7'
+        primary: '#F8F7F7'
       },
       borderRadius: {
         section: '32px'
