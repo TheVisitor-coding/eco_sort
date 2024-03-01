@@ -20,6 +20,9 @@ export default {
       },
       borderRadius: {
         section: '32px'
+      },
+      fontSize: {
+        h2: '22px'
       }
     }
   },
