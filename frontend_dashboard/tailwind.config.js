@@ -4,7 +4,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'gothic': ['gothic', 'sans-serif'],
+        'gothic-bold': ['gothic-bold', 'sans-serif'],
+        'arial-rounded': ['arial-rounded-bold', 'sans-serif'],
+      },
+      colors:{
+        'yellow': '#EFD600',
+        'green-primary': '#17A638',
+        'green-secondary': '#A3C4AA'
+      }
+    },
   },
   plugins: [],
 }
