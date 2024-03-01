@@ -14,3 +14,7 @@
   font-family: 'gothic-bold';
   src: url('./assets/fonts/GOTHICB.TTF');
 }
+
+html{
+  background-color: #F8F7F7;
+}
