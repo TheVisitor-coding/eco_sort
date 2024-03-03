@@ -4,7 +4,7 @@ import Logout from '../input/Logout'
 function Sidebar () {
   return (
     <>
-      <header className='flex flex-col justify-between h-screen pb-6 w-80 bg-white rounded-section mx-4 shadow-md'>
+      <header className='flex flex-col sticky top-0 justify-between h-[69.5rem] pb-6 w-80 bg-white rounded-section mx-4 shadow-md'>
         <div className='flex flex-col items-center gap-3'>
           <img className='size-20' src='./ecosort_logo.svg' alt='' />
           <span className='w-2/4 h-[1px] bg-gradient-to-r from-transparent via-black' />

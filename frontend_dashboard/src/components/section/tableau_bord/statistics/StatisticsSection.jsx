@@ -5,7 +5,7 @@ import StatsGraphic from './StatsGraphic'
 function StatisticsSection () {
   return (
     <>
-      <section className='bg-white flex flex-col gap-6 shadow-md h-fit w-fit px-8 py-8 rounded-section'>
+      <section className='bg-white flex flex-col gap-6 shadow-md h-fit w-2/3 px-8 py-8 rounded-section'>
         <h2 className='text-h2 font-arial-rounded'>Statistiques Générales</h2>
         {/* Statistiques Générales */}
         <div className='flex flex-row gap-4 flex-wrap'>
