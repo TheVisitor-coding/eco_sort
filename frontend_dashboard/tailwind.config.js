@@ -9,11 +9,14 @@ export default {
         gothic: ['gothic', 'sans-serif'],
         'gothic-bold': ['gothic-bold', 'sans-serif'],
         'arial-rounded': ['arial-rounded-bold', 'sans-serif']
+        
       },
       colors: {
         yellow: '#EFD600',
         'green-primary': '#17A638',
-        'green-secondary': '#A3C4AA'
+        'green-secondary': '#A3C4AA',
+        'grey-primary': 'rgba(255, 255, 255, 1)'
+
       },
       backgroundColor: {
         primary: '#F8F7F7'
@@ -24,6 +27,7 @@ export default {
       fontSize: {
         h2: '22px'
       }
+
     }
   },
   plugins: []
