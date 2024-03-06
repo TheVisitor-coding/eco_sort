@@ -18,3 +18,8 @@
 html{
   background-color: #F8F7F7;
 }
+
+.green-gradient{
+background: rgb(23,166,56);
+background: linear-gradient(99deg, rgba(23,166,56,1) 12%, rgba(239,214,0,1) 90%);
+}
