@@ -1,17 +1,14 @@
-import ClassementSection from '../components/section/tableau_bord/classement/ClassementSection'
-import ListEmployeSection from '../components/section/tableau_bord/list_employe/ListEmployeSection'
-import StatisticsSection from '../components/section/tableau_bord/statistics/StatisticsSection'
+import Sidebar from '../components/sidebar/Sidebar'
+import Home from './Home'
 
 function Dashboard () {
   return (
     <>
-      <div className='h-screen flex flex-col w-full mr-4 gap-3'>
-        <div className='flex flex-row gap-6'>
-          <StatisticsSection />
-          <ClassementSection />
-        </div>
-        <ListEmployeSection />
-      </div>
+      <main className='mt-6 flex flex-row items-start'>
+        <Sidebar />
+        <Home />
+      </main>
+
     </>
   )
 }

@@ -1,6 +1,5 @@
 import LoginPage from './pages/auth/LoginPage'
 import RegisterPage from './pages/auth/RegisterPage'
-import Sidebar from './components/sidebar/Sidebar'
 import Dashboard from './pages/Dashboard'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ErrorPage from './pages/ErrorPage'
