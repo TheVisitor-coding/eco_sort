@@ -19,10 +19,13 @@ export default {
 
       },
       backgroundColor: {
-        'button-focus': '#F8F7F7'
+        primary: '#F8F7F7'
       },
       borderRadius: {
         section: '32px'
+      },
+      fontSize: {
+        h2: '22px'
       }
 
     }
