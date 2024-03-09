@@ -1,9 +1,21 @@
+import { useState } from 'react'
 import Button from '../forms/buttons/Button'
 import NavButton from '../forms/buttons/NavButton'
+import ChoiceAlert from '../alert/ChoiceAlert'
 
 function Sidebar () {
+  const [showAlert, setShowAlert] = useState(false)
+
+  const handleLogout = () => {
+    setShowAlert(false)
+    window.location.href = '/login'
+  }
+
   return (
     <>
+      {
+      showAlert && <ChoiceAlert onClickBottom={() => setShowAlert(false)} onClickTop={handleLogout} title='Déconnexion' description='Etes-vous sûr de vouloir vous déconnecter ?' />
+    }
       <header className='flex flex-col sticky top-0 justify-between h-[69.5rem] pb-6 w-96 bg-white rounded-section mx-4 shadow-md'>
         <div className='flex flex-col items-center gap-3'>
           <img className='size-20' src='/ecosort_logo.svg' alt='' />
@@ -35,7 +47,7 @@ function Sidebar () {
 
         {/* Déconnexion */}
         <div className='flex flex-row gap-3 px-10 '>
-          <Button text='Déconnexion' icon='/icons/icon_logout.svg' typo='gothic' fontSize='text-md' />
+          <Button onClick={() => setShowAlert(true)} text='Déconnexion' icon='/icons/icon_logout.svg' typo='gothic' fontSize='text-md' />
         </div>
       </header>
     </>

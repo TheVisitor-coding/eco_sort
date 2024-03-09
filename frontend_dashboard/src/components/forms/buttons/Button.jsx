@@ -1,7 +1,7 @@
-function Button ({ text, icon, row, typo, fontSize }) {
+function Button ({ text, icon, row, typo, fontSize, onClick }) {
   return (
     <>
-      <button className={`flex ${row ? 'flex-row-reverse' : 'flex-row'} items-center gap-4`}>
+      <button onClick={onClick} className={`flex ${row ? 'flex-row-reverse' : 'flex-row'} items-center gap-4`}>
         <span className='px-[14px] py-2 rounded-full bg-gradient-to-br from-green-primary to-yellow'>
           <img className='size-5' src={icon} alt='logout_icon' />
         </span>
