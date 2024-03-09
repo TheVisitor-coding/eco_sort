@@ -8,10 +8,10 @@ function LineEmploye ({ src, name }) {
         </div>
         <div className='flex flex-row gap-4'>
           <button className='px-4 h-8 flex items-center justify-center rounded-full bg-gradient-to-br from-green-primary to-yellow'>
-            <img className='size-4' src='./icons/icon_delete.png' alt='icon_delete' />
+            <img className='size-4' src='/icons/icon_delete.png' alt='icon_delete' />
           </button>
           <button className='px-4 h-8 flex items-center justify-center rounded-full bg-gradient-to-br from-green-primary to-yellow'>
-            <img className='size-4' src='./icons/icon_modify.png' alt='icon_modify' />
+            <img className='size-4' src='/icons/icon_modify.png' alt='icon_modify' />
           </button>
         </div>
       </div>
