@@ -3,7 +3,7 @@ import RegisterPage from './pages/auth/RegisterPage'
 import Dashboard from './pages/Dashboard'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ErrorPage from './pages/ErrorPage'
-import ParamsPage from './pages/ParamsPage'
+import Leaderboard from './pages/Leaderboard'
 
 function App () {
   return (
@@ -13,9 +13,11 @@ function App () {
           <Route path='/register' element={<RegisterPage />} />
           <Route path='/login' element={<LoginPage />} />
           <Route path='*' element={<ErrorPage />} />
-          <Route path='/dashboard' element={<Dashboard />} />
-          <Route path='/Settings' element={<ParamsPage />} />
-
+          {/* <Route path='/dashboard' element={<Dashboard />} /> */}
+          <Route path='dashboard'>
+            <Route index element={<Dashboard />} />
+            <Route path=':leaderboard' element={<Leaderboard />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
