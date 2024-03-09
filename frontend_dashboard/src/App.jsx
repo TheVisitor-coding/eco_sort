@@ -4,6 +4,8 @@ import Dashboard from './pages/Dashboard'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ErrorPage from './pages/ErrorPage'
 import Leaderboard from './pages/Leaderboard'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function App () {
   return (
@@ -20,6 +22,8 @@ function App () {
           </Route>
         </Routes>
       </BrowserRouter>
+      <ToastContainer />
+
     </>
   )
 }
