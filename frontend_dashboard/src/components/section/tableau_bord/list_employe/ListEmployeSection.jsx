@@ -12,12 +12,12 @@ function ListEmployeSection () {
 
         {/* Liste Employés */}
         <div className='flex flex-col gap-5'>
-          <LineEmploye src='./avatar.png' name='Eléonore Mathé' />
-          <LineEmploye src='./avatar.png' name='Eléonore Mathé' />
-          <LineEmploye src='./avatar.png' name='Eléonore Mathé' />
-          <LineEmploye src='./avatar.png' name='Eléonore Mathé' />
-          <LineEmploye src='./avatar.png' name='Eléonore Mathé' />
-          <LineEmploye src='./avatar.png' name='Eléonore Mathé' />
+          <LineEmploye src='/avatar.png' name='Eléonore Mathé' />
+          <LineEmploye src='/avatar.png' name='Eléonore Mathé' />
+          <LineEmploye src='/avatar.png' name='Eléonore Mathé' />
+          <LineEmploye src='/avatar.png' name='Eléonore Mathé' />
+          <LineEmploye src='/avatar.png' name='Eléonore Mathé' />
+          <LineEmploye src='/avatar.png' name='Eléonore Mathé' />
 
         </div>
       </div>

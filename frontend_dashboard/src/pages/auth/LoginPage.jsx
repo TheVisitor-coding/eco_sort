@@ -17,7 +17,7 @@ const LoginPage = () => {
           </div>
           <LoginCard />
           <div className='flex justify-end w-[432px]'>
-            <Button text='Se connecter' icon={iconLogin} row typo='arial-rounded' />
+            <Button text='Se connecter' icon={iconLogin} row typo='arial-rounded' fontSize='text-[22px]' />
           </div>
         </div>
         <img src={perso1} alt='perso1' className='relative px-[280px] h-[500px] top-56 left-16' />

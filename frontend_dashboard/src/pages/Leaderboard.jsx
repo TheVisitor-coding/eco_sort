@@ -1,16 +1,16 @@
-import SectionHome from '../components/section/SectionHome'
 import Sidebar from '../components/sidebar/Sidebar'
+import SectionLeaderboard from '../components/section/SectionLeaderboard'
 
-function Dashboard () {
+function Leaderboard () {
   return (
     <>
       <main className='mt-6 flex flex-row items-start'>
         <Sidebar />
-        <SectionHome />
+        <SectionLeaderboard />
       </main>
 
     </>
   )
 }
 
-export default Dashboard
+export default Leaderboard
