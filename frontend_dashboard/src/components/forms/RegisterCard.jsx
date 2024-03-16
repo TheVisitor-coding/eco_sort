@@ -5,7 +5,6 @@ import email from './../../../public/icons/email.svg'
 import sort from './../../../public/icons/sort.svg'
 import password from './../../../public/icons/password.svg'
 
-
 const RegisterCard = () => {
   const [formData, setFormData] = useState({
     companyName: '',
