@@ -3,6 +3,7 @@ import RegisterPage from './pages/auth/RegisterPage'
 import Dashboard from './pages/Dashboard'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ErrorPage from './pages/ErrorPage'
+import ParamsPage from './pages/ParamsPage'
 
 function App () {
   return (
@@ -13,6 +14,8 @@ function App () {
           <Route path='/login' element={<LoginPage />} />
           <Route path='*' element={<ErrorPage />} />
           <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/Settings' element={<ParamsPage />} />
+
         </Routes>
       </BrowserRouter>
     </>

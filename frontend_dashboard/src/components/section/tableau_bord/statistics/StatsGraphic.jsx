@@ -1,4 +1,4 @@
-import { AreaChart, XAxis, YAxis, CartesianGrid, Tooltip, Area } from 'recharts'
+import { XAxis, YAxis, CartesianGrid, Tooltip, Area, AreaChart } from 'recharts'
 import { dataChart } from '../../../../data/stats'
 
 function StatsGraphic () {

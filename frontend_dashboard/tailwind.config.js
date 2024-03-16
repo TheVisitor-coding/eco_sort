@@ -9,7 +9,7 @@ export default {
         gothic: ['gothic', 'sans-serif'],
         'gothic-bold': ['gothic-bold', 'sans-serif'],
         'arial-rounded': ['arial-rounded-bold', 'sans-serif']
-        
+
       },
       colors: {
         yellow: '#EFD600',
