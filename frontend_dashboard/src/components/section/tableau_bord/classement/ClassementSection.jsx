@@ -8,7 +8,7 @@ function ClassementSection () {
         {/* Head Section */}
         <div className='flex flex-row flex-wrap w-full justify-between'>
           <h2 className='text-h2 font-arial-rounded'>Classement</h2>
-          <LinkButton text='Voir Tout' href='/dashboard/leaderboard' />
+          <LinkButton text='Voir Tout' href='/leaderboard' />
         </div>
 
         {/* Liste Classement */}
