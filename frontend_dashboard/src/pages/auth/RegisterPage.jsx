@@ -17,7 +17,7 @@ const RegisterPage = () => {
           </div>
           <RegisterCard />
           <div className='flex justify-end w-[432px]'>
-            <Button text='Se connecter' icon={iconLogin} row typo='arial-rounded' />
+            <Button text='Se connecter' icon={iconLogin} row typo='arial-rounded' fontSize='text-[22px]' />
           </div>
           <div className='flex justify-center w-[432px]'>
             <p className='font-gothic text-[14px]'>Vous avez déjà un compte ? <Link to='/login' className='font-gothic-bold'>Connectez-vous</Link></p>
