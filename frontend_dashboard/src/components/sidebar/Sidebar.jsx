@@ -7,7 +7,7 @@ function Sidebar () {
   const [showAlert, setShowAlert] = useState(false)
 
   const handleLogout = () => {
-    setShowAlert(false)
+    setShowAlert(true)
     window.location.href = '/login'
   }
 
@@ -29,15 +29,15 @@ function Sidebar () {
               Tableau de Bord
             </NavButton>
             <NavButton
-              sectionTab='/dashboard/leaderboard'
-              onClick={() => { window.location.href = '/dashboard/leaderboard' }}
+              sectionTab='/leaderboard'
+              onClick={() => { window.location.href = '/leaderboard' }}
               src='/icons/icon_classement'
             >
               Classement
             </NavButton>
             <NavButton
-              sectionTab='/dashboard/settings'
-              onClick={() => { window.location.href = '/dashboard' }}
+              sectionTab='/settings'
+              onClick={() => { window.location.href = '/settings' }}
               src='/icons/icon_parametre'
             >
               Paramètres
