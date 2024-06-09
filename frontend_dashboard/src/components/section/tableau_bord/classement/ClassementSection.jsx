@@ -13,12 +13,12 @@ function ClassementSection () {
 
         {/* Liste Classement */}
         <div className='flex flex-col gap-5'>
-          <LineClassement />
-          <LineClassement />
-          <LineClassement />
-          <LineClassement />
-          <LineClassement />
-          <LineClassement />
+          <LineClassement rating={1} name='Jennifer BONDIL' score='8500' />
+          <LineClassement rating={2} name='Marjorie DAVID' score='7050' />
+          <LineClassement rating={3} name='Anaïs AKA' score='6800' />
+          <LineClassement rating={4} name='Mohamed Larbi EL BAIDI' score='6550' />
+          <LineClassement rating={5} name='Mattéo ROSSI' score='6500' />
+          <LineClassement rating={6} name='Ilona BOURSERIE' score='6000' />
         </div>
       </div>
     </>

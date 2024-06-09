@@ -11,9 +11,10 @@ import 'react-toastify/dist/ReactToastify.css'
 function App () {
   return (
     <>
+
       <BrowserRouter>
         <Routes>
-          <Route path='/register' element={<RegisterPage />} />
+          <Route path='/' element={<RegisterPage />} />
           <Route path='/login' element={<LoginPage />} />
           <Route path='*' element={<ErrorPage />} />
           <Route path='dashboard' element={<Dashboard />} />
@@ -21,6 +22,7 @@ function App () {
           <Route path='settings' element={<ParamsPage />} />
         </Routes>
       </BrowserRouter>
+
       <ToastContainer />
 
     </>

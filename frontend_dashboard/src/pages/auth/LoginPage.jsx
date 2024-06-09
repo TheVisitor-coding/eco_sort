@@ -1,8 +1,6 @@
 import React from 'react'
 import perso1 from '../../../public/icons/perso1.svg'
 import vector2 from '../../../public/icons/Vector2.svg'
-import Button from '../../components/forms/buttons/Button'
-import iconLogin from '../../../public/icons/icon_login.svg'
 import LoginCard from '../../components/forms/LoginCard'
 const LoginPage = () => {
   return (
@@ -16,9 +14,6 @@ const LoginPage = () => {
             <p className='font-gothic'>Saisissez votre adresse électronique et votre mot<br />de passe pour vous connecter</p>
           </div>
           <LoginCard />
-          <div className='flex justify-end w-[432px]'>
-            <Button text='Se connecter' icon={iconLogin} row typo='arial-rounded' fontSize='text-[22px]' />
-          </div>
         </div>
         <img src={perso1} alt='perso1' className='relative px-[280px] h-[500px] top-56 left-16' />
       </div>
