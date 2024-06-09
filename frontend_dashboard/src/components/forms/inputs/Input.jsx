@@ -11,7 +11,7 @@ const Input = ({ icon, name, value, onChange, placeholder, type = 'text' }) => {
           className=' ml-4 mt-2 mr-3 w-[20px]'
         />
       </div>
-      <input name={name} onChange={onChange} placeholder={placeholder} type={type} className='outline-none placeholder:italic' />
+      <input name={name} onChange={onChange} value={value} placeholder={placeholder} type={type} className='outline-none placeholder:italic' />
     </label>
 
   )

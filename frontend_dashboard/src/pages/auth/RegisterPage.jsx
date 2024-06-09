@@ -1,10 +1,8 @@
-import React from 'react'
 import perso1 from '../../../public/icons/perso_terre_1.svg'
 import vector from '../../../public/icons/Vector.svg'
-import Button from '../../components/forms/buttons/Button'
-import iconLogin from '../../../public/icons/icon_login.svg'
 import { Link } from 'react-router-dom'
 import RegisterCard from '../../components/forms/RegisterCard'
+
 const RegisterPage = () => {
   return (
     <div className='md:px-[200px] bg-[#F8F7F7]'>
@@ -16,9 +14,7 @@ const RegisterPage = () => {
             <p className='font-gothic'>Configurer votre première connexion via ce<br /> formulaire ci-dessous</p>
           </div>
           <RegisterCard />
-          <div className='flex justify-end w-[432px]'>
-            <Button text='Se connecter' icon={iconLogin} row typo='arial-rounded' fontSize='text-[22px]' />
-          </div>
+
           <div className='flex justify-center w-[432px]'>
             <p className='font-gothic text-[14px]'>Vous avez déjà un compte ? <Link to='/login' className='font-gothic-bold'>Connectez-vous</Link></p>
           </div>
