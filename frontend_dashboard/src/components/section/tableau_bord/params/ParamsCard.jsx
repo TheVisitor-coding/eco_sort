@@ -17,9 +17,9 @@ const ParamsCard = () => {
       <div className=' w-2/4 '>
         <div className='flex flex-col gap-5 items-start'>
           <Button text='Information générales' row icon={IconModify} typo='arial-rounded' />
-          <p className='font-gothic'>Code postal : XXXXX  </p>
-          <p className='font-gothic'>ID de la poubelle : XXXXX  </p>
-          <p className='font-gothic'>Email de l’admin : abcde@email.fr  </p>
+          <p className='font-gothic'>Code postal : 44800  </p>
+          <p className='font-gothic'>ID de la poubelle : 30000  </p>
+          <p className='font-gothic'>Email de l’admin : matteo.rossi@my-digital-school.org  </p>
           <p className='font-gothic'>Mot de passe de l’admin : *********  </p>
         </div>
       </div>
@@ -29,9 +29,9 @@ const ParamsCard = () => {
       <div className='flex flex-col  gap-5 w-2/4 '>
         <div className='flex flex-col items-start gap-5'>
           <Button text='Abonnements' row icon={IconModify} typo='arial-rounded' />
-          <p className='font-gothic'>Date d’abonnement : jj/mm/aaaa</p>
-          <p className='font-gothic'>Coordonnées bancaire : XXXX XXXX XXXX XXXX</p>
-          <p className='font-gothic'>Prochain prélèvement le : jj/mm/aaaa</p>
+          <p className='font-gothic'>Date d’abonnement : 05/12/2023</p>
+          <p className='font-gothic'>Coordonnées bancaire : FR14 2004 1010 0505 0001 3M02 606</p>
+          <p className='font-gothic'>Prochain prélèvement le : 05/07/2024</p>
         </div>
         <button className='flex flex-row justify-end font-gothic-bold gap-2 font-lg'>Demander une résialiation <img src={chevron} alt='rightIcon' className='mt-1' /></button>
       </div>
